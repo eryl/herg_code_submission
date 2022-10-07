@@ -1,0 +1,20 @@
+name: herg-thundersvm
+channels:
+  - conda-forge
+dependencies:
+  - scikit-learn=1.1.1
+  - dill=0.3
+  - rdkit=2022.03.3
+  - python=3.9
+  - mordred=1.2
+  - pandas=1.4
+  - numpy=1.22
+  - tqdm=4.64
+  - optuna=2.10
+  - chembl_structure_pipeline=1.0
+  - cudatoolkit=9.0
+  - pip
+  - pip:
+    - thundersvm
+
+

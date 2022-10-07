@@ -1,0 +1,21 @@
+name: herg-base
+channels:
+  - pytorch
+  - conda-forge
+  - pyg
+dependencies:
+  - scikit-learn=1.1.1
+  - dill=0.3
+  - rdkit=2022.03.3
+  - python=3.9
+  - mordred=1.2
+  - pandas=1.4
+  - numpy=1.22
+  - tqdm=4.64
+  - optuna=2.10
+  - chembl_structure_pipeline=1.0
+  - pytorch=1.11
+  - cudatoolkit=11.3
+  - pyg=2.0
+  - py-xgboost-gpu=1.6.2
+  - pip
