@@ -6,9 +6,9 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-setup(name='rise_qsar',
+setup(name='herg_code_submission',
       version='0.1',
-      description='Project to train QSAR models',
+      description='Code submission for hERG model evaluation',
       url='https://github.com/eryl/rise_qsar',
       author='Erik Ylipää',
       author_email='erik.ylipaa@ri.se',
