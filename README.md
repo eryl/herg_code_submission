@@ -8,7 +8,7 @@ All models were developed on a Linux plattform. While Windows is supported, you 
 Unfortunately ThunderSVM lacks precompiled Windows binaries. To run these experiments on a Windows computer, the easiest approach is to use Windows Subsystems for Linux 2 with support for GPU (see https://learn.microsoft.com/en-us/windows/wsl/setup/environment).
 
 ## Install ##
-Anaconda is used to manage python dependencies. This software was developed with Anaconda 4.10.1, but any later version should work as well.
+Anaconda is used to manage python dependencies, find installation packages here: https://www.anaconda.com/products/distribution. This software was developed with Anaconda 4.10.1, but any later version should work as well.
 
 All models except thundersvm can be trained with the same environment. To train models with thundersvm (which depends on cuda 9.0), use the `thundersvm_environment.yml`. For the other environments use `torch_environment.yml`.
 
