@@ -1,6 +1,6 @@
-# RISE QSAR #
+# hERG model evaluation software #
 
-Package for training QSAR models
+Package to easily evaluate models on the supplied hERG blocker dataset.
 
 ## Prerequisits
 
