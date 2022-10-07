@@ -1,0 +1,11 @@
+models/*
+*__pycache__*
+.idea
+.ipynb_checkpoints
+code_from_maria
+code_from_swapnil
+*egg-info
+predictions
+experiments
+dataset/**/graph_dataset
+dataset/**/pickled_graphs
